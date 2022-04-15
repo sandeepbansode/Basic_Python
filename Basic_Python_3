@@ -1,0 +1,1441 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNdzNoBI8lRWc6ZfYis4zEK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sandeepbansode/Basic_Python/blob/main/Basic_Python_3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Basic_Python_3**"
+      ],
+      "metadata": {
+        "id": "lJy3qHvkaw4i"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "hlUKw_nZa5or"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## operators in python"
+      ],
+      "metadata": {
+        "id": "Mgw2wFBmbA2C"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Operators are used to perform operations on variables and values.\n",
+        "\n",
+        "Python divides the operators in the following groups:\n",
+        "\n",
+        "* Arithmetic operators\n",
+        "\n",
+        "* Assignment operators\n",
+        "\n",
+        "* Comparison operators\n",
+        "\n",
+        "* Logical operators\n",
+        "\n",
+        "* Identity operators\n",
+        "\n",
+        "* Membership operators\n",
+        "\n",
+        "* Bitwise operators\n"
+      ],
+      "metadata": {
+        "id": "YNwyXiiObpY3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "epp_dD7vbPgJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Arithmetic operation"
+      ],
+      "metadata": {
+        "id": "_yCrILMhc1Jn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "_oXOTGMNc9px"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "x and y two variables\n",
+        " * Addition x+y\n",
+        "\n",
+        " * Subtraction x-y\t\n",
+        " *\tMultiplication x*y \t\n",
+        " * Division\tx/y\n",
+        " *\tModulus\tx % y\t\n",
+        " *\tExponentiation\tx ** y\t\n",
+        " *\tFloor division\tx // y"
+      ],
+      "metadata": {
+        "id": "NUMxk_I7dI1e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#addition\n",
+        "x = 10\n",
+        "y = 15\n",
+        "x+y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vk7EgAR5dpoa",
+        "outputId": "0c106825-9d66-4bd6-baa8-d5ee8eff95a1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "25"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#subtraction \n",
+        "x = 15\n",
+        "y = 25\n",
+        "y-x"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EMc6vCKOfYd5",
+        "outputId": "9b57e0c1-1982-4cfd-dc4c-432d66c53394"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "10"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#multiplication\n",
+        "x = 10\n",
+        "y = 15\n",
+        "x*y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kUvixwA4fkg-",
+        "outputId": "d001f40e-86a6-4e5d-9afc-66e3d4d2eff6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "150"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#division\n",
+        "x = 125\n",
+        "y = 15\n",
+        "print(x/y)\n",
+        "int(x/y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vbtMSu9cfynZ",
+        "outputId": "b882c07d-c7d2-4c6a-f4f8-3d4c66e01482"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8.333333333333334\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#modulus\n",
+        "x = 23\n",
+        "y = 5\n",
+        "x%y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QyAP3YmygBNV",
+        "outputId": "3a190cae-dbc9-4ac7-8e9e-9ee278608f31"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#exponentiation\n",
+        "x = 12\n",
+        "y = 4\n",
+        "x**y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wUF7KSdug0ip",
+        "outputId": "11e27a10-984f-45f9-e4a8-ed103890e5df"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "20736"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#floor division\n",
+        "x = 50\n",
+        "y = 15\n",
+        "x//y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U9A3S_ulhKkC",
+        "outputId": "87967c9c-0d51-48db-ae43-18003bb4d5f6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# assignment operator \n",
+        "The following is the list of all possible compound assignment operators in Python.\n",
+        "\n",
+        " +=\n",
+        "\n",
+        " -=\n",
+        "\n",
+        " *=\n",
+        "\n",
+        " /=\n",
+        "\n",
+        " %=\n",
+        "\n",
+        " //=\n",
+        "\n",
+        " **=\n",
+        "\n",
+        " &=\n",
+        "\n",
+        " |=\n",
+        "\n",
+        " ^=\n",
+        "\n",
+        " >>=\n",
+        "\n",
+        " <<="
+      ],
+      "metadata": {
+        "id": "geH1DNDth7J0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 20\n",
+        "x+=x\n",
+        "x"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FUI3B1AahbgS",
+        "outputId": "6ba2ca5f-dae1-4b02-cd28-59afcbe7516b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "40"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 20\n",
+        "x*=x \n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c53FywkZq_x_",
+        "outputId": "ff9aff59-af71-4a25-a546-ed93093c31c0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "400\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#the program for Maximum Of Three Numbers\n",
+        "\n",
+        "x = int (input ('enter the 1st number:' ))\n",
+        "y = int (input('enter the 2nd number :'))\n",
+        "z = int (input('enter the 3rd number:'))\n",
+        "zz = x if x>y and x>z else y if y>z else z\n",
+        "print('maximum number is :', zz)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JoT9ZtQY7nuS",
+        "outputId": "98f599a9-6707-4170-abbd-b26af51c6fd8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the 1st number:14\n",
+            "enter the 2nd number :48\n",
+            "enter the 3rd number:48\n",
+            "maximum number is : 48\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# comparison operator\n",
+        "\n",
+        "Comparison operators — operators that compare values and return true or false . The operators include: > , < , >= , <= , == , and !="
+      ],
+      "metadata": {
+        "id": "Eh53OIbWsUWy"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 10\n",
+        "y = 20\n",
+        "print(x==y)\n",
+        "print(x!=y)\n",
+        "print(x<y)\n",
+        "print(x>y)\n",
+        "print(x<=y)\n",
+        "print(x>=y)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7sGcZXskrbdV",
+        "outputId": "e61e8569-f538-4b7c-cc27-ae67025e252c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n",
+            "True\n",
+            "True\n",
+            "False\n",
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Logical operators\n",
+        "Logical operators — operators that combine multiple boolean expressions or values and provide a single boolean output."
+      ],
+      "metadata": {
+        "id": "Vg9dkeFYt6Ot"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "  *  **For boolean Types Behaviour:**\n",
+        "\n",
+        "*  or -> If atleast one arugemnt is True then result is True\n",
+        "\n",
+        "* not -> Complement\n",
+        "\n",
+        "* True and False ==> False\n",
+        "\n",
+        "* True or False ==> True\n",
+        "\n",
+        "* not False ==> True\n",
+        "\n",
+        " * **For non-boolean Types Behaviour:**\n",
+        "\n",
+        "* 0 means False\n",
+        "\n",
+        "* non-zero means True\n",
+        "\n",
+        "* empty string is always treated as False\n",
+        "\n",
+        "* x and y:  \n",
+        " If x is evaluates to false return x otherwise return y\n",
+        "\n",
+        "* x or y :\n",
+        "\n",
+        "  If x evaluates to True then result is x otherwise result is y"
+      ],
+      "metadata": {
+        "id": "egWTOwotvHwQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#and  \tLogical AND:True if both the operands are true    \tx and y\n",
+        "#or   \tLogical OR:True if either of the operands is true\t  x or y\n",
+        "#not  \tLogical NOT:True if operand is false              \tnot x"
+      ],
+      "metadata": {
+        "id": "85D8MhY4s2jF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(5 and 26)\n",
+        "5 or 26 "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PqhXdcqou7HM",
+        "outputId": "a8d7c947-9dac-4822-8a7d-1fb42ad5835c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "26\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 31
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(0 and 68) #0 meanse false\n",
+        "0 or 68"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Bgnp0xIyvNoq",
+        "outputId": "7450c881-2827-4806-e291-c994165c84e0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "68"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 32
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Identity operators**\n",
+        "dentity operators are used to compare the objects, not if they are equal, but\n",
+        " if they are actually the same object, with the same memory location:\n",
+        "\n",
+        "\n",
+        " The Equality operator (==) compares the values of both the operands and checks for value equality. Whereas the 'is' operator checks whether both the operands refer to the same object or not (present in the same memory location).\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "7c3xmzU42z-C"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#'''Operator\t    Description                                             \tExample\t\n",
+        "#    is \t        Returns True if both variables are the same object      \tx is y\t\n",
+        "#  is not       \tReturns True if both variables are not the same object  \tx is not y'''"
+      ],
+      "metadata": {
+        "id": "GrZy32SS2Ubr"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x= 2 \n",
+        "y= 20\n",
+        "x is y\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QMg_Gc5R3ebS",
+        "outputId": "8732bc58-e0c3-49cd-94f0-f4bf7b706ed4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 37
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x is not y"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HAu2ml0u3wMa",
+        "outputId": "1097b1a0-99e7-452f-96dd-057c38b681fd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 38
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Membership operator**\n",
+        "\n",
+        "Membership operators are operators used to validate the membership of a value. It tests for membership in a sequence, such as strings, lists, or tuples. \n",
+        "\n",
+        "in operator: The ‘in’ operator is used to check if a value exists in a sequence or not. Evaluate to true if it finds a variable in the specified sequence and false otherwise."
+      ],
+      "metadata": {
+        "id": "1qIVtDyX6Yzx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " x = [12,15,56,95,254,45,56]\n",
+        "\n",
+        " 12 in x\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MMg06dcN30Ue",
+        "outputId": "da4e03d9-9679-40dd-e863-f961f2b94eea"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "96 not in x"
+      ],
+      "metadata": {
+        "id": "SXDV9lT27Dhc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "7949d059-1045-42f5-c448-76fd4e7e0df3"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "avengers = ('ironman',\"loki\",\"dr.strange\",\"hulk\",\"thor\")\n",
+        "print('loki' in avengers)\n",
+        "\n",
+        "print('widow' in avengers)\n",
+        "\n",
+        "'thanos' not in avengers\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0CaxqTRkQmqF",
+        "outputId": "9a7a6a80-ab9d-49f9-bfad-6b89214c6c12"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "False\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "VZMgucQwRgWC"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Bitwise operator** \n",
+        "Operators are used to perform operations on values and variables. These are the special symbols that carry out arithmetic and logical computations. The value the operator operates on is known as Operand.\n",
+        "\n",
+        "In Python, bitwise operators are used to performing bitwise calculations on integers. \n",
+        "\n",
+        "The integers are first converted into binary and then operations are performed on bit by bit, hence the name bitwise operators. \n",
+        "\n",
+        "Then the result is returned in decimal format.\n",
+        "\n",
+        "\n",
+        "* **Bitwise operators:** \n",
+        "\n",
+        "* Bitwise AND operator  (&) = Returns 1 if both the bits are 1 else 0.\n",
+        "* Bitwise OR operator (|) =  Returns 1 if either of the bit is 1 else 0.\n",
+        "* Bitwise not operator (~) = Returns one’s complement of the number.\n",
+        "* Bitwise XOR operator (^) = Returns one’s complement of the number.\n"
+      ],
+      "metadata": {
+        "id": "zffRLBmCSOmb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a= 80\n",
+        "b = 50\n",
+        "print(a&b)\n",
+        "print(a|b)\n",
+        "print(a^b)\n",
+        "~a"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nlv0Fl-kWBuv",
+        "outputId": "3c1142df-842c-4805-dfe9-0c8283aaf146"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "16\n",
+            "114\n",
+            "98\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "-81"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 22
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "~-5 # formula for ~ = -x-1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "awlRE-t1XtaC",
+        "outputId": "35969389-a199-48e2-894e-f78884996e51"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 23
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "10.00&11.00 #bitwise operators only supports to int"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 165
+        },
+        "id": "iPSkwj9YX85G",
+        "outputId": "08630db5-c068-49c4-a6cb-b0331d62a591"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-24-abc1362ed86c>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;36m10.00\u001b[0m\u001b[0;34m&\u001b[0m\u001b[0;36m11.00\u001b[0m \u001b[0;31m#bitwise operators only supports to int\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: unsupported operand type(s) for &: 'float' and 'float'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Shift** **operator**\n",
+        " * **Shift Operators:** (<<,>>)\n",
+        " These operators are used to shift the bits of a number left or right thereby multiplying or dividing the number by two respectively. They can be used when we have to multiply or divide a number by two. \n",
+        "\n",
+        "* **Bitwise right shift:(>>)** Shifts the bits of the number to the right and fills 0 on voids left( fills 1 in the case of a negative number) as a result. Similar effect as of dividing the number with some power of two.\n",
+        "\n",
+        "* **Bitwise left shift:(<<)**  Shifts the bits of the number to the left and fills 0 on voids right as a result. Similar effect as of multiplying the number with some power of two.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "IKn51upPaGC7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "a>>1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-j2_F5_LYQ-1",
+        "outputId": "e3c5402a-aea2-4cb8-8107-1f84f9a07f7b"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 27
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b = 15\n",
+        "b<<1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3KxKzbf5ddA_",
+        "outputId": "28a8aea2-14c9-49a6-b662-b670a975aa57"
+      },
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "30"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 29
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Operator Precedence:**\n",
+        "\n",
+        "If multiple operators present then which operator will be evaluated first is decided by operator precedence.\n",
+        "\n",
+        "**BODMAS Rule:** 'Brackets, Order, Division, Multiplication, Addition, Subtraction. '"
+      ],
+      "metadata": {
+        "id": "EmZIjO1pd4jr"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "4sUz_h61dhJw"
+      },
+      "execution_count": 29,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "ErOy8RKjeNgg"
+      },
+      "execution_count": 29,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Math module**\n",
+        "\n",
+        "\n",
+        "The math module is a standard module in Python and is always available. To use mathematical functions under this module, you have to import the module using import math"
+      ],
+      "metadata": {
+        "id": "ldf-jibEeQE9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "math.sqrt(25)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JB2wyx7PeNdA",
+        "outputId": "ac2a31c5-b698-47f0-a1da-66ed3e027135"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5.0"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 30
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "math.pi"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9uMkqG7JrdMR",
+        "outputId": "7acb97f0-0d77-4ce2-c9a1-cc577779c503"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3.141592653589793"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 31
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Other important functions in math module\n",
+        "from math import ceil, floor, factorial, trunc, gcd, sin,cos,tan\n",
+        "\n",
+        "print(ceil(458.55)) #Return the ceiling of x\n",
+        "print(floor(10.55)) #Return the floor of x\n",
+        "print(pow(10,20)) #\n",
+        "print(factorial(5))\n",
+        "print(trunc(10.55)) #Return x with the fractional part removed, leaving the integer part. This rounds toward 0:\n",
+        "print(gcd(10,20))     \n",
+        "\"\"\" gcd() = Return the greatest common divisor of the specified integer arguments.\n",
+        "If any of the arguments is nonzero, then the returned value is the largest positive integer that is a divisor of all arguments. \n",
+        " If all arguments are zero, then the returned value is 0. gcd() without arguments returns 0   \"\"\"\n",
+        "print(gcd(860,752)) #only two arguments\n",
+        "\n",
+        "print(sin(10))\n",
+        "print(cos(10))\n",
+        "print(tan(10))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4EoNiRO6ssE-",
+        "outputId": "6a991ad9-d206-4c22-802e-2b29a729a59d"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "459\n",
+            "10\n",
+            "100000000000000000000\n",
+            "120\n",
+            "10\n",
+            "10\n",
+            "4\n",
+            "-0.5440211108893698\n",
+            "-0.8390715290764524\n",
+            "0.6483608274590866\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#area of a circle\n",
+        "import math\n",
+        "\n",
+        "r = int(input (\"Enter the value of radius : \"))\n",
+        "A = math.pi*r**2\n",
+        "\n",
+        "print(\"Area of A Circle is :\", A)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1sY8ZSVkwXs8",
+        "outputId": "162140b3-1362-4ae2-a0a4-373594c770be"
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the value of radius : 5\n",
+            "Area of A Circle is : 78.53981633974483\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#eval \n",
+        "#eval Function take a String and evaluate the Result\n",
+        "\n",
+        "x = (\"12*45+4\")\n",
+        "eval(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EVYi_FBazAMy",
+        "outputId": "fbab3297-79bb-41a8-fff6-d357d7716751"
+      },
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "544"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 52
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Output Statements:\n",
+        "We can use print() function to display output."
+      ],
+      "metadata": {
+        "id": "Q3Z1FsjG2Ukq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#We can use escape characters\n",
+        "print(\"Hello \\n World\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8VPvWBRS1veh",
+        "outputId": "65bd1392-808d-4f92-e841-a1f217c6d3f7"
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello \n",
+            " World\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#print with variable number of arguments\n",
+        "x,y,z=17,26,36\n",
+        "print(\"The Values are :\",x,y,z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "j9uRTCyG2k0v",
+        "outputId": "aa13f628-4953-4e5a-d9ae-a812c0dfb6db"
+      },
+      "execution_count": 55,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The Values are : 17 26 36\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# By default output values are seperated by space.If we want we can specify seperator by using \"sep\" attribute\n",
+        "a,b,c=10,20,30\n",
+        "print(a,b,c,sep=',')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nU9qFHXC25lw",
+        "outputId": "c8c9d534-a3de-4cfa-bc19-7ade14ae30fb"
+      },
+      "execution_count": 56,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10,20,30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'''1) %i == int\n",
+        "   2) %d == int\n",
+        "   3) %f == float\n",
+        "   4) %s == String type'''\n",
+        "\n",
+        "a=10\n",
+        "b=20\n",
+        "c=30\n",
+        "print(\"a value is %i\" %a)\n",
+        "print(\"b value is %d and c value is %d\" %(b,c))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FbLvKTW23kck",
+        "outputId": "8189e812-7934-4f40-cde7-6d0894071972"
+      },
+      "execution_count": 57,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a value is 10\n",
+            "b value is 20 and c value is 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s=input('enter your name : ')\n",
+        "drink=input(\"enter drink you like : \")\n",
+        "print(\"Name of student : %s, favourite drink : %s\" %(s,drink))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HApmnH2-3_yB",
+        "outputId": "0a4b3930-54d7-4116-dd2d-003f4cf35847"
+      },
+      "execution_count": 65,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your name : rahul\n",
+            "enter drink you like : tea\n",
+            "Name of student : rahul, favourite drink : tea\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# If we want output in the same line with space\n",
+        "print(\"Hello\",end=' ')\n",
+        "print(\"World\",end=' ')\n",
+        "print(\"Welcome\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6t1fDB6Z4KGE",
+        "outputId": "f8b210a5-d1eb-4684-b2bb-528491647b85"
+      },
+      "execution_count": 59,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World Welcome\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"bye\""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "EyuqnigO4PVS",
+        "outputId": "8b3005af-d9df-4abd-9c85-0f08254c810e"
+      },
+      "execution_count": 68,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'bye'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 68
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "KQAefOzm6itU"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
